@@ -27,11 +27,7 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
-
-
-
 
 .titulo-episodios {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -49,10 +45,9 @@ article {
     margin: auto;
     margin-top: -50px;
     width: 100%;
-    
-    
 }
-.episodios div{
+
+.episodios div {
     margin: auto;
     width: 80%;
     margin: 0px;
@@ -63,7 +58,6 @@ article {
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 
 .phone-img {
@@ -77,7 +71,6 @@ article {
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
-
 }
 
 .titulo-venimos {
@@ -111,14 +104,16 @@ article {
     justify-content: center;
     margin-top: 50px;
 }
-.contenedor-imagenes{
+
+.contenedor-imagenes {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
 }
-.contenedor-imagenes img{
+
+.contenedor-imagenes img {
     width: 100%;
 }
 
@@ -129,7 +124,6 @@ article {
     margin: auto;
     letter-spacing: 5px;
     margin-left: 15px;
-
 }
 
 .contenedor-temas {
@@ -146,7 +140,6 @@ article {
     margin: auto;
     letter-spacing: 5px;
     margin-left: 15px;
-
 }
 
 .imagenes-temas {
@@ -168,8 +161,6 @@ article {
     font-family: 'IBM Plex Sans', sans-serif;
     color: #060A24;
 }
-
-
 
 @media (min-width: 500px) {
     .fondo-azul {
@@ -215,6 +206,7 @@ article {
         width: 100%;
         margin: 0px;
     }
+
     .contenedor-invitados {
         display: flex;
         flex-direction: row;
@@ -222,7 +214,7 @@ article {
         justify-content: center;
         margin-top: 50px;
     }
-    
+
     .titulo-invitados {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 36px;
@@ -230,25 +222,28 @@ article {
         margin: auto;
         letter-spacing: 5px;
         margin-left: 15px;
-    
+
     }
-    .contenedor-imagenes{
+
+    .contenedor-imagenes {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 50px;
     }
-    .contenedor-imagenes img{
+
+    .contenedor-imagenes img {
         width: 50%;
     }
+
     .contenedor-temas {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 30px;
     }
-    
+
     .titulo-temas {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 36px;
@@ -256,9 +251,9 @@ article {
         margin: auto;
         letter-spacing: 5px;
         margin-left: 15px;
-    
+
     }
-    
+
     .imagenes-temas {
         display: flex;
         flex-direction: row;
@@ -267,13 +262,12 @@ article {
         width: 100%;
         padding: 20px;
         justify-content: space-between;
-
     }
-    .imagenes-temas img{
+
+    .imagenes-temas img {
         width: 25%;
-
     }
-    
+
     .imagenes-temas h4 {
         display: flex;
         flex-direction: column;
@@ -283,17 +277,14 @@ article {
         font-family: 'IBM Plex Sans', sans-serif;
         color: #060A24;
     }
-    .imagenes-temas div{
+
+    .imagenes-temas div {
         display: flex;
         flex-direction: column;
         width: 25%;
         justify-content: center;
         align-items: center;
-
-
     }
-
-
 }
 
 @media (min-width: 668px) {
@@ -385,13 +376,14 @@ article {
         margin-left: 10px;
         padding: 5px;
     }
+
     .contenedor-temas {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 50px;
     }
-    
+
     .titulo-temas {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 32px;
@@ -399,9 +391,8 @@ article {
         margin: auto;
         letter-spacing: 5px;
         margin-left: 50px;
-    
     }
-    
+
     .imagenes-temas {
         display: flex;
         flex-direction: row;
@@ -410,13 +401,12 @@ article {
         padding: 20px;
         justify-content: space-between;
         margin-top: 50px;
-
     }
-    .imagenes-temas img{
+
+    .imagenes-temas img {
         width: 25%;
-
     }
-    
+
     .imagenes-temas h4 {
         display: flex;
         flex-direction: column;
@@ -426,18 +416,17 @@ article {
         font-family: 'IBM Plex Sans', sans-serif;
         color: #060A24;
     }
-    .imagenes-temas div{
+
+    .imagenes-temas div {
         display: flex;
         flex-direction: column;
         width: 25%;
         justify-content: center;
         align-items: center;
-
-
     }
-
 }
-@media (min-width: 768px){
+
+@media (min-width: 768px) {
     .fondo-azul {
         flex-wrap: wrap;
         display: grid;
@@ -462,7 +451,6 @@ article {
         color: #FFFFFF;
         font-size: 36px;
         margin: -60px 0px 25px 16px;
-
         display: flex;
     }
 
@@ -483,6 +471,7 @@ article {
         margin: auto;
         margin: 15px;
     }
+
     .contenedor-articulo {
         float: left;
         margin-top: 100px;
@@ -514,6 +503,7 @@ article {
         margin-left: 10px;
         padding: 5px;
     }
+
     .contenedor-phone {
         margin-top: -100px;
         width: 48%;
@@ -528,7 +518,7 @@ article {
         width: 100%;
         margin: auto;
     }
-    
+
     .titulo-invitados {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 36px;
@@ -537,9 +527,10 @@ article {
         letter-spacing: 5px;
         margin-left: 100px;
         margin-top: 50px;
-    
+
     }
-    .contenedor-imagenes{
+
+    .contenedor-imagenes {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -547,16 +538,18 @@ article {
         margin-top: 30px;
         width: 100%;
     }
-    .contenedor-imagenes img{
+
+    .contenedor-imagenes img {
         width: 33.3%;
     }
+
     .contenedor-temas {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 50px;
     }
-    
+
     .titulo-temas {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 36px;
@@ -564,9 +557,8 @@ article {
         margin: auto;
         letter-spacing: 0px;
         margin-left: 75px;
-    
     }
-    
+
     .imagenes-temas {
         display: flex;
         flex-direction: row;
@@ -575,13 +567,12 @@ article {
         padding: 20px;
         justify-content: space-between;
         margin-top: 50px;
-
     }
-    .imagenes-temas img{
+
+    .imagenes-temas img {
         width: 25%;
-
     }
-    
+
     .imagenes-temas h4 {
         display: flex;
         flex-direction: column;
@@ -591,17 +582,17 @@ article {
         font-family: 'IBM Plex Sans', sans-serif;
         color: #060A24;
     }
-    .imagenes-temas div{
+
+    .imagenes-temas div {
         display: flex;
         flex-direction: column;
         width: 25%;
         justify-content: center;
         align-items: center;
-
-
     }
 }
-@media (min-width: 1000px){
+
+@media (min-width: 1000px) {
     .fondo-azul {
         flex-wrap: wrap;
         display: grid;
@@ -612,6 +603,7 @@ article {
         z-index: 1;
         clip-path: polygon(0 15%, 100% 0, 100% 80%, 0 100%);
     }
+
     .contenedor-episodios {
         width: 100%;
         height: 800px;
@@ -620,12 +612,12 @@ article {
         display: flex;
         justify-content: center;
     }
+
     .titulo-episodios {
         font-family: 'IBM Plex Sans', sans-serif;
         color: #FFFFFF;
         font-size: 36px;
         margin: 100px 0px 25px 150px;
-
         display: flex;
     }
 
@@ -645,9 +637,8 @@ article {
         width: 48%;
         margin: auto;
         margin: 5px;
-        
     }
-  
+
     .contenedor-phone {
         margin-top: -100px;
         width: 48%;
@@ -663,7 +654,6 @@ article {
         float: left;
         margin-top: 50px;
         width: 50%;
-
     }
 
     .titulo-venimos {
