@@ -27,6 +27,7 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 
@@ -48,6 +49,8 @@ article {
     margin: auto;
     margin-top: -50px;
     width: 100%;
+    
+    
 }
 .episodios div{
     margin: auto;
@@ -642,6 +645,7 @@ article {
         width: 48%;
         margin: auto;
         margin: 5px;
+        
     }
   
     .contenedor-phone {
