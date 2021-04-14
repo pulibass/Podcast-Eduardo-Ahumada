@@ -347,60 +347,67 @@ article {
 
     .contenedor-articulo {
         float: left;
-        margin-top: 6px;
+        margin-top: -30px;
         width: 50%;
 
     }
+    .contenedor-invitados {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 200px;
+    }
 
-    .titulo-venimos {
+    .titulo-invitados {
         font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 28px;
+        font-size: 36px;
         color: #060A24;
-        margin-left: 10px;
+        margin: auto;
         letter-spacing: 5px;
+        margin-left: 15px;
+
     }
 
-    .parrafo-venimos {
-        font-family: 'IBM Plex Mono', monospace;
-        font-size: 14px;
-        color: #060A24;
-        margin-left: 10px;
-        text-align: left;
-        padding: 5px;
+    .contenedor-imagenes {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
     }
 
-    .subparrafo-venimos {
-        font-family: 'IBM Plex Mono', monospace;
-        font-size: 14px;
-        color: #060A24;
-        margin-left: 10px;
-        padding: 5px;
+    .contenedor-imagenes img {
+        width: 50%;
     }
 
     .contenedor-temas {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .titulo-temas {
         font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 32px;
+        font-size: 36px;
         color: #060A24;
         margin: auto;
         letter-spacing: 5px;
-        margin-left: 50px;
+        margin-left: 15px;
+
     }
 
     .imagenes-temas {
         display: flex;
         flex-direction: row;
         margin: auto;
+        margin-top: 50px;
         width: 100%;
         padding: 20px;
         justify-content: space-between;
-        margin-top: 50px;
     }
 
     .imagenes-temas img {
@@ -424,6 +431,9 @@ article {
         justify-content: center;
         align-items: center;
     }
+  
+
+ 
 }
 
 @media (min-width: 768px) {
@@ -474,7 +484,7 @@ article {
 
     .contenedor-articulo {
         float: left;
-        margin-top: 100px;
+        margin-top: 50px;
         width: 50%;
 
     }
