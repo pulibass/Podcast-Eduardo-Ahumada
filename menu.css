@@ -149,7 +149,7 @@ input {
     nav ul {
         flex-direction: column;
         list-style: none;
-        margin-left: 0%;
+        margin-left: 5%;
         height: 200px;
         justify-content: space-evenly;
     }
